@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,8 +22,20 @@
 </head>
 <body>
 <?php
+// Step 1
 echo "PHP Array Practice";
+echo "<br>";
+//Step 2 $numbers array
 
+$numbers = array(7, 9, 8, 9, 8, 8, 6);
+function printArr(array $array) {
+    foreach ($array as $num) {
+        echo $num . "<br>";
+    }
+}
+
+echo "Step 2: <br>";
+printArr($numbers);
 
 
 
