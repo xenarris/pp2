@@ -18,6 +18,9 @@
     //Turn on error reporting
     ini_set('display_errors', 1);
     error_reporting(E_ALL);
+
+    //includes
+    include("functions.php");
     ?>
 </head>
 <body>
@@ -28,13 +31,9 @@ echo "<br>";
 //Step 2 $numbers array
 
 $numbers = array(7, 9, 8, 9, 8, 8, 6);
-function printArr(array $array) {
-    foreach ($array as $num) {
-        echo $num . "<br>";
-    }
-}
 
-echo "Step 2: <br>";
+
+echo "Step 2 and 3: <br>";
 printArr($numbers);
 
 
