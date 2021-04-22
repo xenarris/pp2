@@ -44,7 +44,11 @@ echo "Largest number: " . largest($numbers) . "<br>";
 
 //step 5
 $noDupNum = removeDups($numbers);
-
+echo "[";
+foreach ($noDupNum as $num) {
+    echo $num . ", ";
+}
+echo "]"
 ?>
 
 
