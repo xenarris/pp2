@@ -28,15 +28,22 @@
 // Step 1
 echo "PHP Array Practice";
 echo "<br>";
-//Step 2 $numbers array
+echo "<br>";
 
+//Step 2 $numbers array
 $numbers = array(7, 9, 8, 9, 8, 8, 6);
 
-
+//Step 3 moved the print function
 echo "Step 2 and 3: <br>";
 printArr($numbers);
+echo "<br>";
 
+//step 4
+echo "Step 4: <br>";
+echo "Largest number: " . largest($numbers) . "<br>";
 
+//step 5
+$noDupNum = removeDups($numbers);
 
 ?>
 
