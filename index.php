@@ -43,6 +43,9 @@ echo "Step 4: <br>";
 echo "Largest number: " . largest($numbers) . "<br>";
 
 //step 5
+echo "<br>";
+echo "Step 5: <br>";
+
 $noDupNum = removeDups($numbers);
 echo "[";
 foreach ($noDupNum as $num) {
